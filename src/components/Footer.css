@@ -1,0 +1,24 @@
+
+.custom-footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--footer-bg, #0d1117); /* dark-friendly */
+  color: #aaa;
+}
+
+.footer-text {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  color: inherit;
+}
+
+.footer-icons a {
+  font-size: 1.3rem;
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: var(--ant-primary-color, #1677ff); /* matches your theme */
+}
